@@ -37,7 +37,7 @@ class TaskManager
         }
         catch (JsonException ex)
         {
-            //Console.WriteLine($"Error loading tasks: {ex.Message}");
+            Console.WriteLine($"Error loading tasks: {ex.Message}");
             File.WriteAllText(filePath, "{}"); // Reset file if there's an error
             return [];
         }
@@ -61,18 +61,35 @@ class TaskManager
         Console.WriteLine($"Task added successfully (ID: {id}).");
     }
 
-    public static void UpdateTask(string id, string description, string status, string filePath)
+    public static void UpdateTask(string id, string description, string filePath)
     {
         var tasks = LoadTasks(filePath);
         if (tasks.ContainsKey(id))
         {
             var task = tasks[id];
             task.Description = description;
-            task.Status = status;
             task.UpdatedAt = DateTime.Now;
 
             SaveTasks(filePath, tasks);
             Console.WriteLine($"Task {id} updated successfully.");
+        }
+        else
+        {
+            Console.WriteLine($"Task with ID {id} not found.");
+        }
+    }
+
+    public static void UpdateTaskStatus(string id, string status, string filePath)
+    {
+        var tasks = LoadTasks(filePath);
+        if (tasks.ContainsKey(id))
+        {
+            var task = tasks[id];
+            task.Status = status;
+            task.UpdatedAt = DateTime.Now;
+
+            SaveTasks(filePath, tasks);
+            Console.WriteLine($"Task {id} status updated to '{status}'.");
         }
         else
         {
@@ -134,53 +151,6 @@ class TaskManager
         }
     }
 
-    public static void AddCommandLine(string command)
-    {
-        // This method can be used to add command line functionality in the future
-        Console.WriteLine($"Command received: {command}");
-        var parts = command.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-        if (parts.Length == 0)
-        {
-            Console.WriteLine("No command provided.");
-            return;
-        }
-        string action = parts[0].ToLower();
-        switch (action)
-        {
-            case "add":
-                if (parts.Length < 2)
-                {
-                    Console.WriteLine("Usage: add <description> [status]");
-                    return;
-                }
-                string description = parts[1];
-                string status = parts.Length > 2 ? parts[2] : "todo";
-                AddTask(description, "tasks.json", status);
-                break;
-            case "update":
-                if (parts.Length < 4)
-                {
-                    Console.WriteLine("Usage: update <id> <description> <status>");
-                    return;
-                }
-                UpdateTask(parts[1], parts[2], parts[3], "tasks.json");
-                break;
-            case "delete":
-                if (parts.Length < 2)
-                {
-                    Console.WriteLine("Usage: delete <id>");
-                    return;
-                }
-                DeleteTask(parts[1], "tasks.json");
-                break;
-            case "list":
-                ListTasks("tasks.json");
-                break;
-            default:
-                Console.WriteLine($"Unknown command: {action}");
-                break;
-        }
-    }
 }
 
 class Program
@@ -189,23 +159,87 @@ class Program
     {
         TaskManager taskManager = new();
 
+        Console.WriteLine("Welcome to the Task Tracker!");
+
         string filePath = "tasks.json";
-        while (true)
+
+        if (args.Length == 0)
         {
-            Console.WriteLine("task-cli");
-
-            if (File.Exists(filePath))
-            {
-                //.AddTask("Sample task description", filePath);
-                //TaskManager.UpdateTask("3", "Updated task description", "done", filePath);
-                //TaskManager.DeleteTask("1", filePath);
-                //TaskManager.ListTasks(filePath);
-                //TaskManager.ListTasksByStatus("in-progress", filePath);
-            }
-
-            // Add a break or user input to exit the loop if needed
-            break;
+            Console.WriteLine("No command provided. Available commands: add, update, delete, list, mark-done, mark-in-progress");
+            Console.WriteLine("Usage: <command> [arguments]");
+            return;
         }
-        
+
+        string command = args[0].ToLower();
+        switch (command)
+        {
+            case "add":
+                if (args.Length < 2)
+                {
+                    Console.WriteLine("Usage: add <description> [status]");
+                    return;
+                }
+                string description = args[1];
+                string status = args.Length > 2 ? args[2] : "todo";
+                TaskManager.AddTask(description, filePath, status);
+                break;
+            case "update":
+                if (args.Length < 2)
+                {
+                    Console.WriteLine("Usage: update <id> <description> <status>");
+                    return;
+                }
+                description = args[2];
+                TaskManager.UpdateTask(args[1], description, filePath);
+                break;
+            case "delete":
+                if (args.Length < 2)
+                {
+                    Console.WriteLine("Usage: delete <id>");
+                    return;
+                }
+                TaskManager.DeleteTask(args[1], filePath);
+                break;
+            case "list":
+                if (args.Length > 1)
+                {
+                    if (args[1].ToLower() == "done")
+                    {
+                        TaskManager.ListTasksByStatus("done", filePath);
+                    }
+                    else if (args[1].ToLower() == "todo")
+                    {
+                        TaskManager.ListTasksByStatus("todo", filePath);
+                    }
+                    else if (args[1].ToLower() == "in-progress")
+                    {
+                        TaskManager.ListTasksByStatus("in-progress", filePath);
+                    }
+                }
+                else
+                {
+                    TaskManager.ListTasks(filePath);
+                }
+                break;
+            case "mark-done":
+                if (args.Length < 2)
+                {
+                    Console.WriteLine("Usage: mark-done <id>");
+                    return;
+                }
+                TaskManager.UpdateTaskStatus(args[1], "done", filePath);
+                break;
+            case "mark-in-progress":
+                if (args.Length < 2)
+                {
+                    Console.WriteLine("Usage: mark-in-progress <id>");
+                    return;
+                }
+                TaskManager.UpdateTaskStatus(args[1], "in-progress", filePath);
+                break;
+            default:
+                Console.WriteLine($"Unknown command: {command}");
+                break;
+        }
     }
 }
