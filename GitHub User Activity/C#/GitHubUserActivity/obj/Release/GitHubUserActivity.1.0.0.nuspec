@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GitHubUserActivity</id>
+    <version>1.0.0</version>
+    <authors>GitHubUserActivity</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="2bb76fcc2c7fddb19e661f6d10e0af544bafb83f" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="System.CommandLine" version="2.0.0-beta4.22272.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/GitHubUserActivity.runtimeconfig.json" target="lib/net9.0/GitHubUserActivity.runtimeconfig.json" />
+    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/GitHubUserActivity.dll" target="lib/net9.0/GitHubUserActivity.dll" />
+  </files>
+</package>
