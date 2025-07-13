@@ -1,0 +1,11 @@
+[project]
+name = "task-tracker"
+version = "1.0.0"
+description = "Task tracker is a project used to track and manage your tasks"
+
+[project.scripts]
+task-cli = "task_tracker.task_tracker:cli"
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
