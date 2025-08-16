@@ -1,0 +1,11 @@
+[project]
+name = "github-activity"
+version = "1.0.0"
+description = "Use GitHub API to fetch user activity and display it in the terminal."
+
+[project.scripts]
+github-activity = "github_activity.github_activity:cli"
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
