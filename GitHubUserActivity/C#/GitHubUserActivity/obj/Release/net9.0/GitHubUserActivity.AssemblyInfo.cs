@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("franklinfoko")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2dda23bcf4f417954227fd7bf65e40cf05881599")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50ddbef12fb0e47c60f57e67b4af910db1e993de")]
 [assembly: System.Reflection.AssemblyProductAttribute("GitHubUserActivity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GitHubUserActivity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

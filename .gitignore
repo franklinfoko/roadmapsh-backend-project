@@ -1,2 +1,5 @@
 **/bin/
-**/*venv/
+**/task-tracker-venv
+**/obj
+**/bin
+**/.pytest_cache

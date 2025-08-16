@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/GitHubUserActivity.csproj": {}
+    "C:\\Users\\fokof\\OneDrive\\Bureau\\learn\\roamapsh\\roadmapsh-backend-project\\GitHubUserActivity\\C#\\GitHubUserActivity\\GitHubUserActivity.csproj": {}
   },
   "projects": {
-    "/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/GitHubUserActivity.csproj": {
+    "C:\\Users\\fokof\\OneDrive\\Bureau\\learn\\roamapsh\\roadmapsh-backend-project\\GitHubUserActivity\\C#\\GitHubUserActivity\\GitHubUserActivity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/GitHubUserActivity.csproj",
+        "projectUniqueName": "C:\\Users\\fokof\\OneDrive\\Bureau\\learn\\roamapsh\\roadmapsh-backend-project\\GitHubUserActivity\\C#\\GitHubUserActivity\\GitHubUserActivity.csproj",
         "projectName": "github-activity",
-        "projectPath": "/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/GitHubUserActivity.csproj",
-        "packagesPath": "/home/fokfr11/.nuget/packages/",
-        "outputPath": "/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/obj/",
+        "projectPath": "C:\\Users\\fokof\\OneDrive\\Bureau\\learn\\roamapsh\\roadmapsh-backend-project\\GitHubUserActivity\\C#\\GitHubUserActivity\\GitHubUserActivity.csproj",
+        "packagesPath": "C:\\Users\\fokof\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fokof\\OneDrive\\Bureau\\learn\\roamapsh\\roadmapsh-backend-project\\GitHubUserActivity\\C#\\GitHubUserActivity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/fokfr11/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\fokof\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -66,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

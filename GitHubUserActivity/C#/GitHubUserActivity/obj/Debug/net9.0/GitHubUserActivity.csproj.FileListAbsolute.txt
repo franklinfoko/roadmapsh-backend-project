@@ -29,3 +29,34 @@
 /home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/obj/Debug/net9.0/GitHubUserActivity.pdb
 /home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/obj/Debug/net9.0/GitHubUserActivity.genruntimeconfig.cache
 /home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/obj/Debug/net9.0/ref/GitHubUserActivity.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\GitHubUserActivity.exe
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\GitHubUserActivity.deps.json
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\GitHubUserActivity.runtimeconfig.json
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\GitHubUserActivity.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\GitHubUserActivity.pdb
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\System.CommandLine.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\cs\System.CommandLine.resources.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\de\System.CommandLine.resources.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\es\System.CommandLine.resources.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\fr\System.CommandLine.resources.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\it\System.CommandLine.resources.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\ja\System.CommandLine.resources.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\ko\System.CommandLine.resources.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\pl\System.CommandLine.resources.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\pt-BR\System.CommandLine.resources.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\ru\System.CommandLine.resources.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\tr\System.CommandLine.resources.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\zh-Hans\System.CommandLine.resources.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Debug\net9.0\zh-Hant\System.CommandLine.resources.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\obj\Debug\net9.0\GitHubUserActivity.csproj.AssemblyReference.cache
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\obj\Debug\net9.0\GitHubUserActivity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\obj\Debug\net9.0\GitHubUserActivity.AssemblyInfoInputs.cache
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\obj\Debug\net9.0\GitHubUserActivity.AssemblyInfo.cs
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\obj\Debug\net9.0\GitHubUserActivity.csproj.CoreCompileInputs.cache
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\obj\Debug\net9.0\GitHubUserActivity.sourcelink.json
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\obj\Debug\net9.0\GitHubUs.E645B953.Up2Date
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\obj\Debug\net9.0\GitHubUserActivity.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\obj\Debug\net9.0\refint\GitHubUserActivity.dll
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\obj\Debug\net9.0\GitHubUserActivity.pdb
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\obj\Debug\net9.0\GitHubUserActivity.genruntimeconfig.cache
+C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\obj\Debug\net9.0\ref\GitHubUserActivity.dll

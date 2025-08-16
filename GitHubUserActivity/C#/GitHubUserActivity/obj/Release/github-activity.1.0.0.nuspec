@@ -3,32 +3,32 @@
   <metadata>
     <id>github-activity</id>
     <version>1.0.0</version>
-    <authors>fokfr11</authors>
+    <authors>franklinfoko</authors>
     <description>Package Description</description>
     <packageTypes>
       <packageType name="DotnetTool" />
     </packageTypes>
-    <repository type="git" commit="2bb76fcc2c7fddb19e661f6d10e0af544bafb83f" />
+    <repository type="git" commit="50ddbef12fb0e47c60f57e67b4af910db1e993de" />
   </metadata>
   <files>
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/obj/Release/net9.0/DotnetToolSettings.xml" target="tools/net9.0/any/DotnetToolSettings.xml" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/GitHubUserActivity.dll" target="tools/net9.0/any/GitHubUserActivity.dll" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/GitHubUserActivity.deps.json" target="tools/net9.0/any/GitHubUserActivity.deps.json" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/GitHubUserActivity.runtimeconfig.json" target="tools/net9.0/any/GitHubUserActivity.runtimeconfig.json" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/GitHubUserActivity.pdb" target="tools/net9.0/any/GitHubUserActivity.pdb" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/System.CommandLine.dll" target="tools/net9.0/any/System.CommandLine.dll" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/cs/System.CommandLine.resources.dll" target="tools/net9.0/any/cs/System.CommandLine.resources.dll" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/de/System.CommandLine.resources.dll" target="tools/net9.0/any/de/System.CommandLine.resources.dll" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/es/System.CommandLine.resources.dll" target="tools/net9.0/any/es/System.CommandLine.resources.dll" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/fr/System.CommandLine.resources.dll" target="tools/net9.0/any/fr/System.CommandLine.resources.dll" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/it/System.CommandLine.resources.dll" target="tools/net9.0/any/it/System.CommandLine.resources.dll" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/ja/System.CommandLine.resources.dll" target="tools/net9.0/any/ja/System.CommandLine.resources.dll" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/ko/System.CommandLine.resources.dll" target="tools/net9.0/any/ko/System.CommandLine.resources.dll" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/pl/System.CommandLine.resources.dll" target="tools/net9.0/any/pl/System.CommandLine.resources.dll" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/pt-BR/System.CommandLine.resources.dll" target="tools/net9.0/any/pt-BR/System.CommandLine.resources.dll" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/ru/System.CommandLine.resources.dll" target="tools/net9.0/any/ru/System.CommandLine.resources.dll" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/tr/System.CommandLine.resources.dll" target="tools/net9.0/any/tr/System.CommandLine.resources.dll" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/zh-Hans/System.CommandLine.resources.dll" target="tools/net9.0/any/zh-Hans/System.CommandLine.resources.dll" />
-    <file src="/home/fokfr11/moi/roadmapsh-project/GitHub User Activity/C#/GitHubUserActivity/bin/Release/net9.0/publish/zh-Hant/System.CommandLine.resources.dll" target="tools/net9.0/any/zh-Hant/System.CommandLine.resources.dll" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\obj\Release\net9.0\DotnetToolSettings.xml" target="tools\net9.0\any\DotnetToolSettings.xml" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\GitHubUserActivity.dll" target="tools\net9.0\any\GitHubUserActivity.dll" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\GitHubUserActivity.deps.json" target="tools\net9.0\any\GitHubUserActivity.deps.json" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\GitHubUserActivity.runtimeconfig.json" target="tools\net9.0\any\GitHubUserActivity.runtimeconfig.json" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\GitHubUserActivity.pdb" target="tools\net9.0\any\GitHubUserActivity.pdb" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\System.CommandLine.dll" target="tools\net9.0\any\System.CommandLine.dll" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\cs\System.CommandLine.resources.dll" target="tools\net9.0\any\cs\System.CommandLine.resources.dll" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\de\System.CommandLine.resources.dll" target="tools\net9.0\any\de\System.CommandLine.resources.dll" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\es\System.CommandLine.resources.dll" target="tools\net9.0\any\es\System.CommandLine.resources.dll" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\fr\System.CommandLine.resources.dll" target="tools\net9.0\any\fr\System.CommandLine.resources.dll" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\it\System.CommandLine.resources.dll" target="tools\net9.0\any\it\System.CommandLine.resources.dll" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\ja\System.CommandLine.resources.dll" target="tools\net9.0\any\ja\System.CommandLine.resources.dll" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\ko\System.CommandLine.resources.dll" target="tools\net9.0\any\ko\System.CommandLine.resources.dll" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\pl\System.CommandLine.resources.dll" target="tools\net9.0\any\pl\System.CommandLine.resources.dll" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\pt-BR\System.CommandLine.resources.dll" target="tools\net9.0\any\pt-BR\System.CommandLine.resources.dll" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\ru\System.CommandLine.resources.dll" target="tools\net9.0\any\ru\System.CommandLine.resources.dll" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\tr\System.CommandLine.resources.dll" target="tools\net9.0\any\tr\System.CommandLine.resources.dll" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\zh-Hans\System.CommandLine.resources.dll" target="tools\net9.0\any\zh-Hans\System.CommandLine.resources.dll" />
+    <file src="C:\Users\fokof\OneDrive\Bureau\learn\roamapsh\roadmapsh-backend-project\GitHubUserActivity\C#\GitHubUserActivity\bin\Release\net9.0\publish\zh-Hant\System.CommandLine.resources.dll" target="tools\net9.0\any\zh-Hant\System.CommandLine.resources.dll" />
   </files>
 </package>

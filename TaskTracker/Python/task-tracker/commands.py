@@ -1,8 +1,10 @@
-from datetime import date, datetime
+"""
+FUNCTIONS DEFINITIONS
+"""
+
+from datetime import datetime
 import json
 import os
-import re
-from turtle import update
 
 JSON_FILE_PATH = "task.json"
 
@@ -46,7 +48,8 @@ def list_tasks(status=None):
     if not tasks:
         return "No tasks found."
     if status:
-        filtered_tasks = {task_id: task for task_id, task in tasks.items() if task['status'] == status}
+        filtered_tasks = {
+            task_id: task for task_id, task in tasks.items() if task['status'] == status}
         return filtered_tasks if filtered_tasks else "No tasks found with the specified status."
     return tasks
 
@@ -58,8 +61,8 @@ def update_task(task_id, description):
         tasks[str(task_id)]['updated_at'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         save_tasks(tasks)
         return f"Task {task_id} updated."
-    else:
-        return f"Task {task_id} not found."
+
+    return f"Task {task_id} not found."
 
 def modify_status(status, task_id):
     """Modify the status of a task by its ID."""
@@ -69,8 +72,8 @@ def modify_status(status, task_id):
         tasks[str(task_id)]['updated_at'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         save_tasks(tasks)
         return f"Task {task_id} status updated to {status}."
-    else:
-        return f"Task {task_id} not found."
+
+    return f"Task {task_id} not found."
 
 def delete_task(task_id):
     """Delete a task by its ID."""
@@ -79,5 +82,5 @@ def delete_task(task_id):
         del tasks[str(task_id)]
         save_tasks(tasks)
         return f"Task {task_id} deleted."
-    else:
-        return f"Task {task_id} not found."
+
+    return f"Task {task_id} not found."

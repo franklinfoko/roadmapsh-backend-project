@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Eix1Tf3DprU=",
+  "dgSpecHash": "teOrq+Jokgk=",
   "success": true,
-  "projectFilePath": "/home/fokfr11/moi/roadmapsh-project/Task Tracker/C#/TaskTracker/TaskTracker.csproj",
-  "expectedPackageFiles": [
-    "/home/fokfr11/.nuget/packages/microsoft.netcore.app.ref/8.0.17/microsoft.netcore.app.ref.8.0.17.nupkg.sha512",
-    "/home/fokfr11/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.17/microsoft.aspnetcore.app.ref.8.0.17.nupkg.sha512",
-    "/home/fokfr11/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.17/microsoft.netcore.app.host.linux-x64.8.0.17.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\fokof\\OneDrive\\Bureau\\learn\\roamapsh\\roadmapsh-backend-project\\TaskTracker\\C#\\TaskTracker\\TaskTracker.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
